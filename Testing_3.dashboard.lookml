@@ -1,4 +1,4 @@
-- name: add_a_unique_name_1673041637
+- name: Testing_3
   title: Untitled Visualization
   model: tsr_juan_luis_af
   explore: order_items
