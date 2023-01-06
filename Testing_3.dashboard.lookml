@@ -1,10 +1,12 @@
-- name: add_a_unique_name_1673041570
+- name: add_a_unique_name_1673041637
   title: Untitled Visualization
   model: tsr_juan_luis_af
   explore: order_items
   type: looker_grid
   fields: [users.first_name, users.last_name, products.item_name, order_items.sale_price,
     order_items.count]
+  filters:
+    order_items.datetime_filter_without_timezone: 2023/01/06 21:43 to 2023/01/06 21:43
   sorts: [order_items.count desc 0]
   limit: 500
   query_timezone: America/Los_Angeles
